@@ -1,0 +1,13 @@
+.btn-blue{  
+    background-image: linear-gradient(101deg,rgb(88, 143, 233),rgb(235, 14, 253));
+ 	padding: 10px;   
+	border-radius: 5px;
+	color: white;
+}
+
+.btn-blue:hover{
+	background-image: none;
+	background-color: white;
+	color: rgb(211, 35, 248);
+	transition: ease 0.6s;
+}

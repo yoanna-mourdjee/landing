@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+@import url(components/container.css);
+@import url(components/banner.css);
+@import url(components/button.css);
+@import url(components/card.css);
+@import url(components/text-center.css);
+@import url(components/title-purple.css);
+
+
+body{
+	font-family: 'Merriweather', serif;
+	background-color: rgb(9, 8, 8);
+}
+
+h1{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+@media (max-width: 1000px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+  .card h2 {
+    font-size: 15px;
+  }
+  .card h3 {
+    font-size: 10px;
+  }
+  .card img {
+    width: 70px;
+  }
+}
